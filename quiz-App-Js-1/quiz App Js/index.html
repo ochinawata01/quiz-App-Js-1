@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+        <!----Start quiz button-->
+        <div class="start_btn"><button>Start Quiz</button></div>
+
+        <!-------info Box-->
+        <div class="info_box">
+            <div class="info_tittle">
+                <span>Some Rules of this Quiz</span>
+            </div>
+            <div class="info_list">
+                <div class="info">1.  You'll get a point on the basis of your correct answer .</div>
+                <div class="info">2. When playing you can't go to the next question without answering the corrent question .</div>
+                <div class="info">4. When you pick an answer click on the submit button for the next question .</div>
+                <div class="info">5.You can't exit from the Quiz while you're playing.</div>
+            </div>
+            <div class="buttons">
+                <button class="quit">Exit </button>
+                <button class="restart">Continue</button>
+            </div>
+    
+        </div>
+
+            <!---Quiz Box--------->
+    <div class="quiz_box">
+        <header>
+            <div class="title">Awesome Quiz Application</div>
+        </header>
+
+        <!-------Quiz Questions-->
+        <section>
+            <div class="quiz-container" id="quiz"> 
+                <div class="quiz-header">
+                    <h2 id="question">Question Text</h2>
+                    <ul>
+                        <li>
+                            <input type="radio" name="answer" id="a" class="answer">
+                            <label for="a" id="a_text">Answer</label>
+                        </li>
+        
+                        <li>
+                            <input type="radio" name="answer" id="b" class="answer">
+                            <label for="b" id="b_text">Answer</label>
+                        </li>
+        
+                        <li>
+                            <input type="radio" name="answer" id="c" class="answer">
+                            <label for="c" id="c_text">Answer</label>
+                        </li>
+        
+                        <li>
+                            <input type="radio" name="answer" id="d" class="answer">
+                            <label for="d" id="d_text">Answer</label>
+                        </li> 
+                    </ul>
+                </div>
+                <button id="submit">Submit</button>
+            </div>
+        </section>
+    </div>
+
+            
+
+
+
+     <script src="/quiz App Js/script.js"></script>
+</body>
+</html>
